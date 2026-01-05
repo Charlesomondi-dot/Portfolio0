@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charles Omondi - System Administrator | Software Developer | UI/UX</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">CHARLES OMONDI</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Hi, I'm <span class="highlight">Charles Omondi</span></h1>
+                <h2 class="tagline">System Administrator | Software Developer | Graphic Designer | Cyber Security</h2>
+                <p class="hero-description">Adaptable, Flexible and enthusiastic Software Engineer with Bachelor of Science in Computer Science from University of Eldoret. Certified Ethical Hacker (CEH) and Cisco Networking Basics certified. ICT Officer at St. Joseph's Technical Institute for the Deaf, former Penetration Tester at Protego Security Solutions, and Google Developers Group UI/UX Lead. Passionate about system administration, cybersecurity, and solving real-world challenges through technology.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    <a href="#" class="btn btn-outline" onclick="openCVModal(); return false;">View CV</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="Assets/Images/pic.png" alt="Charles Omondi - Web Developer">
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <i class="fas fa-project-diagram"></i>
+                    <h3 class="stat-number" data-target="150">20+</h3>
+                    <p>Projects Completed</p>
+                    <span class="stat-desc">Successful web & mobile apps</span>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-calendar-alt"></i>
+                    <h3 class="stat-number" data-target="5">5+</h3>
+                    <p>Years Experience</p>
+                    <span class="stat-desc">In software development</span>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-users"></i>
+                    <h3 class="stat-number" data-target="300">100+</h3>
+                    <p>Students Trained</p>
+                    <span class="stat-desc">In coding & cybersecurity</span>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-headset"></i>
+                    <h3 class="stat-number" data-target="24">200+</h3>
+                    <p>24/7 Support</p>
+                    <span class="stat-desc">Always available to help</span>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3 class="stat-number" data-target="95">95%</h3>
+                    <p>% Success Rate</p>
+                    <span class="stat-desc">Client satisfaction</span>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-child"></i>
+                    <h3 class="stat-number" data-target="50">200</h3>
+                    <p>Kids Coding</p>
+                    <span class="stat-desc">DigiHub participants</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm an adaptable and enthusiastic Software Engineer with a Bachelor of Science in Computer Science from University of Eldoret (2025). As a Certified Ethical Hacker (CEH) and Cisco Networking Basics certified professional, I ensure safety in the software development lifecycle and enhance robust system security within organizations.</p>
+                    <p>Currently serving as ICT Officer at St. Joseph's Technical Institute for the Deaf, I lead system administration, database management, website maintenance, and security operations. Previously worked as Junior Penetration Tester at Protego Security Solutions and Google Developers Group UI/UX Lead at University of Eldoret, where I organized workshops attracting 50+ attendees per event.</p>
+                    <p>My technical expertise spans System Administration, Database Administration, Network Administration, Graphic Design, Security Management, Web & App Development (HTML, CSS, JavaScript, C#, C, Java, Python), Software Engineering, Data Structures and Algorithms, Git and GitHub, and Data Science with AI applications.</p>
+                </div>
+                <div class="testimonial-preview">
+                    <h3>Professional Reference</h3>
+                    <p class="testimonial-text">"Charles demonstrates exceptional technical skills and strong commitment to excellence. As ICT Officer at St. Joseph's Technical Institute for the Deaf, he has proven expertise in system administration, security management, and ICT infrastructure development."</p>
+                    <a href="#" class="btn btn-small" onclick="openTestimonialModal(); return false;">View Full Testimonial</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Technical Skills</h2>
+            <p class="section-subtitle">Comprehensive technical expertise across multiple domains</p>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">C#</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">PHP</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Dart</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-layer-group"></i> Frameworks & Libraries</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Django</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Flutter</span>
+                        <span class="skill-tag">Firebase</span>
+                        <span class="skill-tag">Node.js</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Databases</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">Firebase</span>
+                        <span class="skill-tag">MySQL Workbench</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-palette"></i> Design Tools</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Figma</span>
+                        <span class="skill-tag">Adobe XD</span>
+                        <span class="skill-tag">Canva</span>
+                        <span class="skill-tag">Draw.io</span>
+                        <span class="skill-tag">Packet Tracer</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-network-wired"></i> System & Network Admin</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">System Administration</span>
+                        <span class="skill-tag">Database Administration</span>
+                        <span class="skill-tag">Network Administration</span>
+                        <span class="skill-tag">Security Management</span>
+                        <span class="skill-tag">LAN/WAN Setup</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-shield-alt"></i> Security & Certifications</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">CEH (Certified Ethical Hacker)</span>
+                        <span class="skill-tag">Penetration Testing</span>
+                        <span class="skill-tag">Vulnerability Assessment</span>
+                        <span class="skill-tag">Cisco Networking Basics</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-language"></i> Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">English (Proficient)</span>
+                        <span class="skill-tag">Kiswahili (Proficient)</span>
+                        <span class="skill-tag">Kenyan Sign Language (Intermediate)</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Other Skills</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git & GitHub</span>
+                        <span class="skill-tag">Data Structures</span>
+                        <span class="skill-tag">Algorithms</span>
+                        <span class="skill-tag">Data Science</span>
+                        <span class="skill-tag">AI/ML Basics</span>
+                        <span class="skill-tag">HCI Design</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <p class="section-subtitle">Some of my recent work that I'm proud of</p>
+            <div class="projects-grid">
+                <!-- Project 1: Jack Restaurant -->
+                <div class="project-card">
+                    <img src="Assets/Images/pic2.jpg" alt="Jack Restaurant" class="project-img">
+                    <span class="project-status live">LIVE</span>
+                    <div class="project-content">
+                        <h3>Jack Restaurant</h3>
+                        <p>Full-stack restaurant platform with online ordering, menu management, and customer reviews. Features responsive design and seamless user experience.</p>
+                        <div class="project-meta">
+                            <span><i class="fas fa-calendar"></i> 2025</span>
+                            <span><i class="fas fa-clock"></i> 4 weeks</span>
+                            <span><i class="fas fa-briefcase"></i> Commercial</span>
+                        </div>
+                        <div class="project-stats">
+                            <span>500+ Orders</span>
+                            <span>4.8★ Rating</span>
+                            <span>Fast Delivery</span>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Responsive</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://jack-restaurant.onrender.com/" target="_blank" class="btn btn-small"><i class="fas fa-external-link-alt"></i> Visit Site</a>
+                            <a href="https://github.com/Charlesomondi-dot" target="_blank" class="btn btn-outline-small"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Covida Analytics -->
+                <div class="project-card">
+                    <img src="Assets/Images/pic3.jpg" alt="COVID-19 Data Analysis" class="project-img">
+                    <span class="project-status live">LIVE</span>
+                    <div class="project-content">
+                        <h3>COVID-19 Data Analytics Dashboard</h3>
+                        <p>Comprehensive data analysis platform examining global COVID-19 mortality patterns with interactive visualizations, trend analysis, and predictive modeling capabilities.</p>
+                        <div class="project-meta">
+                            <span><i class="fas fa-calendar"></i> August 2024</span>
+                            <span><i class="fas fa-clock"></i> 4 weeks</span>
+                            <span><i class="fas fa-briefcase"></i> Data Science</span>
+                        </div>
+                        <div class="project-stats">
+                            <span>2M+ Records</span>
+                            <span>15+ Countries</span>
+                            <span>Real-time Data</span>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Streamlit</span>
+                            <span class="tag">Pandas</span>
+                            <span class="tag">Plotly</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://covida.streamlit.app/" target="_blank" class="btn btn-small"><i class="fas fa-external-link-alt"></i> Visit Site</a>
+                            <a href="https://github.com/Charlesomondi-dot" target="_blank" class="btn btn-outline-small"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: DigiHub Programs -->
+                <div class="project-card">
+                    <img src="Assets/Images/pic4.jpg" alt="Educational Programs" class="project-img">
+                    <span class="project-status active">ACTIVE</span>
+                    <div class="project-content">
+                        <h3>DigiHub Educational Programs</h3>
+                        <p>Comprehensive educational initiative featuring cybersecurity tutoring and kids coding club, empowering the next generation with essential digital skills.</p>
+                        <div class="project-meta">
+                            <span><i class="fas fa-calendar"></i> March 2025</span>
+                            <span><i class="fas fa-clock"></i> Ongoing</span>
+                            <span><i class="fas fa-briefcase"></i> Education</span>
+                        </div>
+                        <div class="project-stats">
+                            <span>300+ Students</span>
+                            <span>Multiple Programs</span>
+                            <span>Weekly Classes</span>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">Cybersecurity</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">Scratch</span>
+                            <span class="tag">Digital Literacy</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#contact" class="btn btn-small"><i class="fas fa-info-circle"></i> Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: Mobile Applications -->
+                <div class="project-card">
+                    <img src="Assets/Images/pic5.jpg" alt="Mobile App Development" class="project-img">
+                    <span class="project-status active">ACTIVE</span>
+                    <div class="project-content">
+                        <h3>Mobile Applications Portfolio</h3>
+                        <p>Developed and deployed cross-platform mobile applications using Flutter with Firebase backend integration. Created user-centered designs with Figma and Adobe XD for optimal user experience.</p>
+                        <div class="project-meta">
+                            <span><i class="fas fa-calendar"></i> 2024 - Present</span>
+                            <span><i class="fas fa-clock"></i> Ongoing</span>
+                            <span><i class="fas fa-briefcase"></i> Mobile Development</span>
+                        </div>
+                        <div class="project-stats">
+                            <span>Flutter + Firebase</span>
+                            <span>Cross-Platform</span>
+                            <span>Bronze Medal Winner</span>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">Flutter</span>
+                            <span class="tag">Dart</span>
+                            <span class="tag">Firebase</span>
+                            <span class="tag">Figma</span>
+                            <span class="tag">Adobe XD</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#contact" class="btn btn-small"><i class="fas fa-info-circle"></i> Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                        <div class="project-links">
+                            <a href="#contact" class="btn btn-small"><i class="fas fa-info-circle"></i> Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Harns Company Services</h2>
+            <p class="section-subtitle">Professional software development and IT solutions for modern businesses</p>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Software Development</h3>
+                    <p>Custom web, mobile, and desktop applications using cutting-edge technologies</p>
+                    <ul class="service-list">
+                        <li><i class="fas fa-check"></i> Web Development (HTML, CSS, JavaScript, React, Django)</li>
+                        <li><i class="fas fa-check"></i> Mobile Apps (Flutter with Firebase integration)</li>
+                        <li><i class="fas fa-check"></i> Backend Development (Python, C#, Java, PHP)</li>
+                        <li><i class="fas fa-check"></i> Database Management (SQL, MySQL, MongoDB)</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Cybersecurity Solutions</h3>
+                    <p>Comprehensive security audits and penetration testing services</p>
+                    <ul class="service-list">
+                        <li><i class="fas fa-check"></i> Penetration Testing & Vulnerability Assessment</li>
+                        <li><i class="fas fa-check"></i> Security Risk Analysis & Remediation</li>
+                        <li><i class="fas fa-check"></i> System Security Management (CEH Certified)</li>
+                        <li><i class="fas fa-check"></i> Network Security & Cisco Certified</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>User-centered design solutions for optimal digital experiences</p>
+                    <ul class="service-list">
+                        <li><i class="fas fa-check"></i> UI/UX Research & Design (Figma, Adobe XD)</li>
+                        <li><i class="fas fa-check"></i> Prototyping & Testing</li>
+                        <li><i class="fas fa-check"></i> Graphic Design (Canva, Draw.io)</li>
+                        <li><i class="fas fa-check"></i> Brand Identity & Logo Design</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Education & Training</h3>
+                    <p>Specialized educational programs from cybersecurity fundamentals to kids coding</p>
+                    <ul class="service-list">
+                        <li><i class="fas fa-check"></i> Intro to Cybersecurity Tutoring</li>
+                        <li><i class="fas fa-check"></i> DigiHub Kids Coding Club</li>
+                        <li><i class="fas fa-check"></i> Programming & Tech Training</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="services-cta">
+                <a href="#contact" class="btn btn-primary">Get Free Consultation</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <h2>Key Achievements</h2>
+            <p class="section-subtitle">Milestones that demonstrate our commitment to excellence</p>
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Certified Ethical Hacker</h3>
+                    <p>Official CEH certification demonstrating advanced cybersecurity skills and ethical hacking expertise</p>
+                    <span class="achievement-year">Certified January 3, 2025</span>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <h3>BSc. Computer Science</h3>
+                    <p>Graduated with Bachelor of Science in Computer Science from University of Eldoret with expertise in System Administration, Database Administration, Network Administration, Security Management, and Software Development</p>
+                    <span class="achievement-year">Graduated 2025</span>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>DigiHub Founder</h3>
+                    <p>Successfully established Digital hub at St. Joseph's Technical Training Institute offering Digital Skills training (ICT literacy, coding, programming, graphic design, digital marketing), Innovation & Entrepreneurship Support, and Community learning opportunities</p>
+                    <span class="achievement-year">Established 2025</span>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3>E-commerce Success</h3>
+                    <p>Delivered platform generating significant revenue with active users and high uptime</p>
+                    <span class="achievement-year">2024</span>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3>Security Expert</h3>
+                    <p>Junior Penetration Tester at Protego Security Solutions conducting vulnerability assessments, analyzing security risks, and collaborating with IT teams to enhance cybersecurity defenses</p>
+                    <span class="achievement-year">Nov 2024 - Jan 2025</span>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <h3>Bronze Medal - World Skills Kenya</h3>
+                    <p>Awarded Bronze Medal and Certificate of Participation in Mobile Application Development competition at World Skills Kenya 2024</p>
+                    <span class="achievement-year">August 2024</span>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>Cisco Networking Basics Certified</h3>
+                    <p>Certified and Verified in Networking Basics from Cisco Academy, demonstrating fundamental networking skills and knowledge</p>
+                    <span class="achievement-year">Certified January 7, 2025</span>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <h3>Mentor & Educator</h3>
+                    <p>Trained 300+ students in programming, cybersecurity, and digital skills as Google Developers Group UI/UX Lead and DigiHub instructor with over 50 attendees per workshop</p>
+                    <span class="achievement-year">2024-2025</span>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>University of Eldoret Innovations Fair</h3>
+                    <p>Certificate of Participation in the University of Eldoret Innovations Fair showcasing innovative technology solutions and entrepreneurship</p>
+                    <span class="achievement-year">October 2024</span>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Cybersecurity & Emerging Technologies</h3>
+                    <p>Completed Cybersecurity and Emerging Technologies Awareness Training, demonstrating knowledge of current security trends and advanced tech landscapes</p>
+                    <span class="achievement-year">September 9, 2025</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>Client Testimonials</h2>
+            <p class="section-subtitle">What clients say about working with me</p>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Charles is an exceptional professional with outstanding technical skills. His work on our system infrastructure was thorough and delivered ahead of schedule. Highly recommended!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>Sr. Matilde Theresa Omondi</h4>
+                            <p>Administrator, St. Bernard Children's Home</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Working with Charles on our ICT infrastructure was a game-changer. His security expertise and attention to detail ensured our systems are robust and secure. A true professional!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>Mr. Kevin Ogolla</h4>
+                            <p>Procurement Officer, St. Joseph's Technical Institute</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Charles demonstrated exceptional commitment to our institution's digital transformation. His training programs were engaging and his technical implementation was flawless."</p>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>Madam. Jessicah Onyango</h4>
+                            <p>HR Officer, St. Joseph's Technical Institute</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Charles's penetration testing revealed critical vulnerabilities we didn't know existed. His detailed reports and recommendations were invaluable for our security improvements."</p>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>Protego Security Solutions</h4>
+                            <p>Client - Penetration Testing Services</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Let's Connect</h2>
+            <p class="contact-intro">Always open to discussing new opportunities and interesting projects</p>
+            <div class="contact-methods">
+                <div class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>For professional inquiries and collaboration opportunities</p>
+                    <a href="mailto:okalc9939@gmail.com" class="btn btn-small">okalc9939@gmail.com</a>
+                    <a href="mailto:charlesomondi232@gmail.com" class="btn btn-small" style="margin-top: 10px;">charlesomondi232@gmail.com</a>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-phone"></i>
+                    <h3>WhatsApp</h3>
+                    <p>Quick direct contact for immediate conversations</p>
+                    <a href="#" class="btn btn-small" onclick="openWhatsAppForm(); return false;">Message on WhatsApp</a>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-comments"></i>
+                    <h3>Social Media</h3>
+                    <p>Connect with me on various platforms</p>
+                    <div class="social-links">
+                        <a href="https://github.com/Charlesomondi-dot" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/charles-o-541646245/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/charles_harns/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://x.com/CHARLES63006617" target="_blank" title="Twitter"><i class="fab fa-x-twitter"></i></a>
+                        <a href="https://www.facebook.com/people/Charles-Omondi/pfbid0JYDrBxLFcsEq1J5kv8fGyRbdSH1qYUsJFURuzEZg79a3rgAn9vBB3ntvA2GiCuP1l/" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Let's Connect</h3>
+                    <div class="footer-social">
+                        <a href="https://github.com/Charlesomondi-dot" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="https://www.linkedin.com/in/charles-o-541646245/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                        <a href="https://x.com/CHARLES63006617" target="_blank"><i class="fab fa-x-twitter"></i> X (Twitter)</a>
+                        <a href="https://www.facebook.com/people/Charles-Omondi/pfbid0JYDrBxLFcsEq1J5kv8fGyRbdSH1qYUsJFURuzEZg79a3rgAn9vBB3ntvA2GiCuP1l/" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
+                        <a href="https://www.instagram.com/charles_harns/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+                        <a href="mailto:okalc9939@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <div class="footer-nav">
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#skills">Skills</a>
+                        <a href="#projects">Projects</a>
+                        <a href="#services">Services</a>
+                        <a href="#achievements">Achievements</a>
+                        <a href="#testimonials">Testimonials</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 HARNS. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Form Modal -->
+    <div id="whatsappModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeWhatsAppForm()">&times;</span>
+            <div class="form-container">
+                <h2>Request Services via WhatsApp</h2>
+                <form id="whatsappForm">
+                    <div class="form-group">
+                        <label for="clientName">Your Name *</label>
+                        <input type="text" id="clientName" name="name" required placeholder="Enter your full name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="clientEmail">Your Email *</label>
+                        <input type="email" id="clientEmail" name="email" required placeholder="Enter your email">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="serviceType">Service Interested In *</label>
+                        <select id="serviceType" name="service" required>
+                            <option value="">Select a service</option>
+                            <option value="Software Development">Software Development</option>
+                            <option value="Web Development">Web Development</option>
+                            <option value="Mobile App Development">Mobile App Development</option>
+                            <option value="Cybersecurity Solutions">Cybersecurity Solutions</option>
+                            <option value="Penetration Testing">Penetration Testing</option>
+                            <option value="System Administration">System Administration</option>
+                            <option value="Database Administration">Database Administration</option>
+                            <option value="UI/UX Design">UI/UX Design</option>
+                            <option value="Graphic Design">Graphic Design</option>
+                            <option value="Training & Workshops">Training & Workshops</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="clientMessage">Project Details</label>
+                        <textarea id="clientMessage" name="message" placeholder="Briefly describe your project or requirements" rows="4"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Send via WhatsApp</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- PDF Viewer Modal -->
+    <div id="pdfModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeModal()">&times;</span>
+            <div class="pdf-container">
+                <object id="pdfViewer" type="application/pdf" width="100%" height="100%"></object>
+            </div>
+        </div>
+    </div>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="#" class="floating-whatsapp" onclick="openWhatsAppForm(); return false;" title="Message us on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>

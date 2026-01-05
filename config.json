@@ -1,0 +1,54 @@
+{
+  "portfolio": {
+    "personalInfo": {
+      "name": "Charles Omondi",
+      "title": "Full Stack Developer | Software Engineer | Tech Enthusiast",
+      "bio": "Building innovative solutions for the modern web. Specializing in creating scalable, user-centric applications.",
+      "email": "charlesomondi.work@gmail.com",
+      "whatsapp": "+254711111111",
+      "profileImage": "Assets/Images/pic.png"
+    },
+    "projects": [
+      {
+        "id": 1,
+        "name": "Jack Restaurant",
+        "description": "A modern restaurant management and ordering platform with an intuitive user interface.",
+        "url": "https://jack-restaurant.onrender.com/",
+        "tags": ["Web App", "Frontend"],
+        "icon": "fa-utensils",
+        "gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)"
+      },
+      {
+        "id": 2,
+        "name": "Covida Analytics",
+        "description": "Data analytics and visualization application for COVID-19 tracking and insights.",
+        "url": "https://covida.streamlit.app/",
+        "tags": ["Data Analytics", "Python"],
+        "icon": "fa-chart-line",
+        "gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)"
+      }
+    ],
+    "skills": {
+      "frontend": ["HTML/CSS", "JavaScript", "React", "Responsive Design"],
+      "backend": ["Python", "Node.js", "Database Design", "APIs"],
+      "tools": ["Git", "Streamlit", "Cloud Deployment", "Version Control"]
+    },
+    "socialMedia": {
+      "github": "https://github.com/Charlesomondi-dot",
+      "linkedin": "https://www.linkedin.com/in/charles-o-541646245/",
+      "instagram": "https://www.instagram.com/charles_harns/",
+      "twitter": "https://x.com/CHARLES63006617",
+      "facebook": "https://www.facebook.com/people/Charles-Omondi/pfbid0JYDrBxLFcsEq1J5kv8fGyRbdSH1qYUsJFURuzEZg79a3rgAn9vBB3ntvA2GiCuP1l/"
+    },
+    "documents": {
+      "cv": "Assets/Documents/CHARLES OMONDI cv.pdf",
+      "testimonial": "Assets/Documents/Testimonial STJTTID.pdf"
+    },
+    "siteSettings": {
+      "theme": "light",
+      "primaryColor": "#667eea",
+      "secondaryColor": "#764ba2",
+      "accentColor": "#f093fb"
+    }
+  }
+}
